@@ -1,0 +1,401 @@
+body{
+    background-color: black !important;
+}
+.header {
+    position: absolute;
+    background-color: black;
+    height: 83vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+  
+.header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.header-logo img{
+    width: 16vh;
+    margin-left: 27px;
+    margin-top: 4px;
+}
+
+.header-logo{
+    padding-right: 20px;
+}
+
+.right-nav{
+    padding-right: 22px;
+}
+
+.sec-nav{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+    margin-right: 8px;
+}
+
+.nav-sec{
+    padding: 12px;
+    justify-content: flex-end;
+}
+.nav-text{
+    color: white !important;
+}
+.sec-nav-text{
+    color: white !important;
+    padding-top: 2px !important;
+}
+
+.trans-col{
+    position: absolute;
+    z-index: 1;
+    margin-top: 33vh;
+    padding-left: 40px;
+}
+
+.trans-text{
+    color: white;
+    padding-left: 70px;
+    font-size: 18px;
+}
+
+.trans-img{
+    width: 87vh;
+    margin-left: 30px;
+}
+
+.header-btn img{
+    padding-right: 10px;
+}
+
+.close-btn{
+    margin-left: -55px !important;
+    margin-right: 20px !important;
+    border: none;
+    background: none;
+}
+
+.close-btn-adj{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 0px 10px 5px 10px;
+}
+
+.header-btn{
+    font-weight: 500;
+    background-color: rgba(109, 109, 110, 0.7);
+    color: white;
+}
+.mid-btn{
+    padding-top: 20px;
+    padding-left: 83px;
+}
+
+.header-btn-fir{
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.cards-container{
+    margin-top: 55vh;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .slider {
+      width: 90%;
+      margin: 100px auto;
+  }
+
+  .slick-slide {
+    margin: 0px 20px;
+  }
+
+  .slick-slide img {
+    width: 100%;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+
+  .slick-slide {
+    transition: all ease-in-out .3s;
+  }
+
+.sec-slider{
+    margin-top: 22px;
+}
+  
+.heading-1{
+    color: white;
+    position: absolute;
+    z-index: 1;
+    margin-top: 61px;
+    margin-left: 79px;
+}
+
+.heading-2{
+    color: white;
+    margin-top: 41px;
+    margin-left: 79px;
+}
+
+.img-header{
+    padding: 0;
+}
+
+.pop-up{
+    width: 134%;
+}
+
+.modal-popup{
+    margin-left: 55vh;
+}
+
+.btn-nav{
+    position: absolute;
+    margin-top: 42vh;
+}
+
+.btn-nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.clr-txt{
+    color: rgb(0, 234, 0);
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.body-clr{
+    background-color: rgba(0, 0, 0, 0.806);
+    margin: 0;
+}
+
+.clr-txt-sec{
+    color: white;
+}
+
+.btn-restrict{
+    padding-left: 0;
+}
+
+.lorem-clr{
+    color: white;
+    font-size: smaller;
+}
+
+.lorem-clr-fir{
+    color: white;
+    padding-top: 30px;
+}
+
+.hotel-head{
+    color: white;
+}
+
+.card-body-clr{
+    background-color: #2f2f2f;
+}
+
+.card-title-clr{
+    color: rgb(0, 234, 0);
+}
+
+.year{
+    color: white;
+}
+
+.card-des{
+    color: white;
+}
+
+.card-adj{
+    margin-bottom: 10px !important;
+}
+
+.footer-adj{
+    justify-content: flex-start;
+}
+
+.footer-heading{
+    font-weight: 600;
+    color: white;
+}
+
+.footer-p-adj{
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0.5em 0.5em 0.5em 0;
+    word-break: break-word;
+    color: white;
+}
+
+.footer-background{
+    background-color: #2f2f2f;
+    margin: 0;
+}
+
+.sm-icons a{
+    text-decoration: none;
+}
+
+.sm-icons li{
+    margin-right: 40px;
+}
+
+.sm-icons{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 30vh;
+    list-style-type: none;
+    font-size: 23px;
+}
+
+.icon-clr{
+    color: white;
+}
+
+.footer{
+    margin-left: 30vh;
+}
+
+.footer ul{
+    list-style: none;
+    line-height: 1.7;
+}
+
+.footer ul li a{
+    color: gray;
+    font-size: 13px;
+}
+
+.content ul{
+    list-style: none;
+    line-height: 1.7;
+}
+
+.content ul li a{
+    color: gray;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 450px) {
+    .header-logo img{
+        width: 10vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-btn{
+        padding: 0;
+        font-size: 13px;
+    }
+    .sec-nav-mob{
+        position: absolute;
+        margin: -5px;
+        padding: 0;
+    }
+    .first-nav-mob{
+        position: absolute;
+        margin-top: 40px;
+        z-index: 5;
+    }
+
+    .video-mob{
+        left: 23vh;
+        max-width: 46vh;
+        top: 11% !important;
+    }
+    .trans-img{
+        display: none;
+    }
+    .trans-text{
+        display: none;
+    }
+    .mid-btn{
+        padding-left: 0;
+    }
+    .mid-btn a{
+        font-size: 10px;
+    }    
+    .play-img{
+        width: 15px;
+    }
+    .info-img{
+        width: 28px;
+    }
+    .cards-container{
+        margin-top: 10vh;
+    }
+    .heading-2{
+        margin: 0;
+    }
+    .heading-1{
+        margin-left: 0;
+    }
+    .sm-icons{
+        margin: 0;
+    }
+    .footer{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .btns-row{
+        margin-top: -200px;
+    }
+    .modal-popup {
+        margin-left: 0;
+    }
+    .pop-up{
+        width: 104%;
+    }
+    .modal-img{
+        width: 46vh;
+    }
+    .btn-nav{
+        margin-top: 15vh;
+    }
+    .navbar-mob{
+        margin-left: 14px;
+        background-color: black;
+    }
+    .search-mob{
+        width: 18px;
+    }
+    .bell-mob{
+        width: 20px;
+    }
+    .man-mob{
+        width: 21px;
+    }
+    .right-nav {
+        padding-right: 9px;
+        padding-left: 5px;
+    }
+    .sec-nav-text{
+        padding: 2px;
+    }
+  }
